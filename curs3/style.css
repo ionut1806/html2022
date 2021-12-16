@@ -1,0 +1,12 @@
+div {
+    width: 500px;
+    border: 1px solid red;
+}
+div p{
+    text-align: center;
+    color: rgb(165, 141, 189)
+}
+div, p{
+    text-align: center;
+    color: rgb(165, 141, 189)
+}
