@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+
+<body>
+
+</body>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CSS Grid Site</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <meta description="Prima aplicatie in cursul 2">
+    <meta author="Ionut Tufan">
+</head>
+
+<body>
+
+    <!-- Header Showcase -->
+    <nav>
+        <ul>
+            <li><a href="acasa.html">Acasa</a></li>
+            <li><a href="portofoliu.html">Portofoliu</a></li>
+            <li><a href="despre.html">Despre noi</a></li>
+            <li><a href="blog.html">Blog </a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main Area -->
+    <main id="main">
+        <!-- Section A -->
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h1>Formular contact</h1>
+                <form id="formjob" action="">
+                    <div>
+                        <label for="nume">Nume</label>
+                        <input type="text" name="Nume" id="nume">
+                    </div>
+                    <div>
+                        <label for="prenume">Prenume</label>
+                        <input type="text" name="prenume" id="prenume">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="parola">Parola</label>
+                        <input type="password" name="parola" id="parola">
+                    </div>
+                    <div>
+                        <label for="sex">Sex:</label>
+                        <input type="radio" name="sex" id="m">M
+                        <input type="radio" name="sex" id="f">F
+                        <input type="radio" name="sex" id="n">N
+                    </div>
+                    <div>
+                        <label for="job">Tip job dorit:</label>
+                        <input type="checkbox" name="full" id="full">Full-time 
+                        <input type="checkbox" name="part" id="part">Part-time <br>
+                    </div>
+                    <div>
+                        <label for="oras">Orasul dorit:</label>
+                        <select name="oras" id="oras">
+                            <option value="0">Selecteaza...</option>
+                            <option value="buzau">Buzau</option>
+                            <option value="bucuresti">Bucuresti</option>
+                            <option value="brasov">Brasov</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mesaj">Mesaj:</label>
+                        <textarea name="mesaj" id="mesaj" cols="50" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="checkbox" checked>Sunt de acord cu <a href="">termeni si
+                            conditii</a>
+                    </div>
+                    <div>
+                    <input  class="bt" type="reset" value="Anuleaza">
+                    <input  class="bt" id="submit" type="submit" value="Trimite datele">
+                    </div>       
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- Footer -->
+    <footer id="main-footer" class="grid">
+        <div>My Project</div>
+        <div>Project By <a href="" target="_blank">Ionut Tufan</a></div>
+    </footer>
+</body>
+
+</html>

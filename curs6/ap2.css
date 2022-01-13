@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+hr{
+    color: blue;
+}
+#submit{
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+h1{
+    margin-left: 40%;
+}
+form{
+    margin-left: 40%;
+    max-width: 1000px;
+    width: 100%;
+}
+nav{
+    background: blue;
+    height: 60px;
+    width: 100%;
+}
